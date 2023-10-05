@@ -93,6 +93,16 @@ header nav.container .menu .active{
 
 /*fin header*/
 
+
+/*inicio del footer*/
+
+footer .container{
+    padding: 0rem 1.25rem;
+    color: var(--secondaryColor);
+}
+
+/*final del footer*/
+
 /*inicio hero*/
 .hero{
     background-image: url(../images/fondo.png);
@@ -128,6 +138,7 @@ main #projects .grid{
 
 main #projects .grid article{
     filter: grayscale(100%);
+    transition: 1s;
     &:hover{
         filter: grayscale(0%);
     }
@@ -138,6 +149,7 @@ main #projects .grid article:first-child{
     background-size: cover;
     background-position: center center;
     height: 45vh;
+    overflow: hidden;
 
 }
 
@@ -145,12 +157,14 @@ main #projects .grid article:last-child{
     background-image: url(../images/coo-coo-clock.png);
     background-size: cover;
     background-position: center center;
+    overflow: hidden;
 }
 
 main #projects .grid article:nth-child(2){
     background-image: url(../images/bottle-gradient-2.jpg);
     background-size: cover;
     background-position: center center;
+    overflow: hidden;
 }
 
 main #projects .grid article{
@@ -161,9 +175,9 @@ main #projects .grid article{
 main #projects .grid article h3{
     position: absolute;
     bottom: 1.25rem;
-    left: 0.70rem;
+    left: 0.60rem;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 2rem;
     transition: 1s;
     opacity: 0;
 }
@@ -181,7 +195,7 @@ main section h2{
 main .more a{
     color: var(--secondaryColor);
     display: inline-block;
-    padding: 0.35rem 0rem;
+    padding: 0.20rem 0rem;
     text-decoration: none;
     font-size: 1.5em;
     margin-top: calc(var(--space)*3);
@@ -216,7 +230,7 @@ main #ourexpertise article h3{
 
 main #ourexpertise article p{
     color: var(--secondaryColor);
-    font-size: 1,25em;
+    font-size: 1.25em;
 }
 
 
@@ -298,14 +312,8 @@ main #news .flex article a h3{
 /*fin de news*/
 
 
-/*inicio del footer*/
 
-footer .container{
-    padding: 0rem 1.25rem;
-    color: var(--secondaryColor);
-}
 
-/*final del footer*/
 
 /*mediaqueries*/
 
