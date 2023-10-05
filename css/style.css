@@ -216,6 +216,7 @@ main #ourexpertise article h3{
 
 main #ourexpertise article p{
     color: var(--secondaryColor);
+    font-size: 1,25em;
 }
 
 
