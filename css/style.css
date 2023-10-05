@@ -273,6 +273,33 @@ main #price .flex article li{
 
 /*fin de price*/
 
+/*inicio de news*/
+
+main #news .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space);
+}
+
+main #news .flex article a{
+    display: block;
+    text-decoration: none;
+    color: var(--mainColor);
+}
+
+main #news .flex article a p{
+    color: var(--secondaryColor);
+}
+
+main #news .flex article a h3{
+    font-size: 2rem;
+}
+
+
+
+
+/*fin de news*/
+
 
 /*inicio del footer*/
 
