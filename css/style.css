@@ -295,9 +295,6 @@ main #news .flex article a h3{
     font-size: 2rem;
 }
 
-
-
-
 /*fin de news*/
 
 
@@ -381,6 +378,22 @@ footer .container{
         text-align: left;
     }
 
+    main #news article{
+        width: calc( 50% - var(--space));
+    }
+
+    main #news article figure {
+        max-height: 200px;
+        overflow: hidden;
+    }
+
+}
+
+@media(min-width: 62.5rem){
+    main #news article figure {
+        max-height: 280px;
+        overflow: hidden; 
+    }
 }
 
 @media(min-width: 87.5rem){
@@ -391,5 +404,10 @@ footer .container{
     footer .container{
     padding: 0rem;
     color: var(--secondaryColor);
+    }
+
+    main #news article figure {
+        max-height: 400px;
+        overflow: hidden;
     }
 }
