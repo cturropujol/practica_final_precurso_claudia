@@ -311,6 +311,59 @@ main #news .flex article a h3{
 
 /*fin de news*/
 
+/*inicio de meet the team*/
+
+main #team .flex{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space);
+    margin: 0 10px;
+}
+main #team .flex figure{
+    transform: rotateZ(45deg);
+    overflow:hidden;
+    transition: 1s;
+    margin: 3.75rem;
+}
+
+main #team .flex img{
+    transform: rotateZ(-45deg) scale(1.5);
+    transition: 1s;
+}
+
+main #team .flex:hover :is(figure, img){
+    transform: rotate(0deg);
+    margin: 0;
+}
+
+main #team .flex div{
+    text-align: center;
+    padding: 1.25rem 0;
+    
+}
+main #team .flex h3{
+    font-size: 1.25em;
+    padding-bottom: 0.5rem;
+   
+}
+main #team .flex h4{
+    font-size: 1.25em;
+    
+    color: var(--secondaryColor);
+}
+
+#team .container div p{
+    text-align: center;
+    font-size: 1.25em;
+    padding: 7.5rem 1.25rem;
+    color: var(--mainColor);
+    background-color: var(--colorButton);
+}
+
+
+
+
+/*fin de meet the team*/
 
 
 
