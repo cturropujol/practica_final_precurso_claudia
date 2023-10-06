@@ -319,6 +319,7 @@ main #team .flex{
     gap: var(--space);
     margin: 0 10px;
 }
+
 main #team .flex figure{
     transform: rotateZ(45deg);
     overflow:hidden;
@@ -331,7 +332,7 @@ main #team .flex img{
     transition: 1s;
 }
 
-main #team .flex:hover :is(figure, img){
+main #team .flex :hover :is(figure, img){
     transform: rotate(0deg);
     margin: 0;
 }
@@ -448,6 +449,19 @@ main #team .flex h4{
         overflow: hidden;
     }
 
+    main #team .flex{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0;;
+        
+    }
+    main #team .flex article{
+    width: calc(25%);
+    }
+
+    main #team .flex figure{
+        margin: 0.75m;
+    }
 }
 
 @media(min-width: 62.5rem){
