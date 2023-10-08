@@ -365,9 +365,44 @@ main #team .flex h4{
 
 
 /*fin de meet the team*/
+/* inicio the way we work*/
 
+#wework .container ul{
+    display: flex;
+    justify-content: space-around;
+    gap: var(--space);
+    color: var(--secondaryColor);
+    font-size: 1.25rem;
+    padding-bottom: 10px;
+}
+#wework .container ul li:first-child{
+    color: var(--mainColor);
+    border-bottom: 3px solid black;
+}
 
+#wework .container .numeros li{
+    display: inline-block;
+    padding: 10px 30px;
+    
+}
+#wework .container .texto li{
+    display: none;
+}
 
+#wework .container h3{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 10px;
+    
+}
+
+#wework .container p{
+    font-size: 1.4rem;
+    color: var(--mainColor);
+    padding-top: 10px;
+}
+
+/* fin the way we work*/
 
 /*mediaqueries*/
 
@@ -465,6 +500,18 @@ main #team .flex h4{
 
     main #team .flex figure{
         margin: 0.75m;
+    }
+
+    #wework .container .numeros li{
+        display: none;
+    
+    }
+    #wework .container .texto li{
+        display: inline-block;
+        padding: 10px 30px;
+    }
+    #wework .container h3{
+        display: none;
     }
 }
 
