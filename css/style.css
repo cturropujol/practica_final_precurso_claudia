@@ -418,12 +418,12 @@ main #team .flex h4{
         flex-direction: row; 
         flex-wrap: wrap;
         gap: var(--space);
-        margin-bottom: 3.5rem;
+        
     }
 
     main #ourexpertise article{
         text-align: left;
-        margin-bottom: 3.5rem;
+        padding-bottom: 3.5rem;
     }
 
     main #ourexpertise article figure{
