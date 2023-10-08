@@ -316,8 +316,7 @@ main #news .flex article a h3{
 main #team .flex{
     display: flex;
     flex-direction: column;
-    gap: var(--space);
-    margin: 0 10px;
+    margin: 0 0.625rem;
 }
 
 main #team .flex figure{
@@ -417,10 +416,14 @@ main #team .flex h4{
     }
     main #ourexpertise .flex{
         flex-direction: row; 
+        flex-wrap: wrap;
+        gap: var(--space);
+        margin-bottom: 3.5rem;
     }
 
     main #ourexpertise article{
         text-align: left;
+        margin-bottom: 3.5rem;
     }
 
     main #ourexpertise article figure{
@@ -453,11 +456,11 @@ main #team .flex h4{
     main #team .flex{
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 0;;
+        gap: calc(var(--space) - 20px);
         
     }
     main #team .flex article{
-    width: calc(25%);
+    width: 25%;
     }
 
     main #team .flex figure{
