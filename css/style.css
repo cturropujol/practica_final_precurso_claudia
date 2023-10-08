@@ -357,6 +357,7 @@ main #team .flex h4{
     text-align: center;
     font-size: 1.25em;
     padding: 7.5rem 1.25rem;
+    margin: 35px 0;
     color: var(--mainColor);
     background-color: var(--colorButton);
 }
